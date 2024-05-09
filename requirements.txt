@@ -1,4 +1,5 @@
 # All Libraries required for this lab are listed below. The libraries pre-installed on Skills Network Labs are commented.
-!pip install pandas==1.3.4
-!pip install scikit-learn==1.0.2
-!pip install numpy==1.21.6
+flask
+pandas
+scikit-learn
+numpy
