@@ -23,8 +23,7 @@ df.sample(5)
 # Find  out the number of  rows and columns
 df.shape
 
-# create a scatter plot of Horsepower versus mileage(MPG) . This will help us visualize the relationship between them.
-#df.plot.scatter(x = "Horsepower", y = "MPG")
+# Let's plot the types and count of species
+#df.Species.value_counts().plot.bar()
 
-#plt.plot(df.Horsepower, df.MPG)
 #plt.show()
