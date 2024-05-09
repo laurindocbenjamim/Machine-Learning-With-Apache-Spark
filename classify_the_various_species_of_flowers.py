@@ -6,10 +6,12 @@ warnings.warn = warn
 warnings.filterwarnings('ignore')
 
 import pandas as pd
-from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn.linear_model import LinearRegression, LogisticRegression
 
 # the data set is available at the url below.
-URL = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-BD0231EN-SkillsNetwork/datasets/mpg.csv"
+URL = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-BD0231EN-SkillsNetwork/datasets/iris.csv"
 
 # using the read_csv function in the pandas library, we load the data into a dataframe.
 
@@ -22,4 +24,7 @@ df.sample(5)
 df.shape
 
 # create a scatter plot of Horsepower versus mileage(MPG) . This will help us visualize the relationship between them.
-df.plot.scatter(x = "Horsepower", y = "MPG")
+#df.plot.scatter(x = "Horsepower", y = "MPG")
+
+#plt.plot(df.Horsepower, df.MPG)
+#plt.show()
