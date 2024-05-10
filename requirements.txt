@@ -3,3 +3,7 @@ flask
 pandas
 scikit-learn
 numpy
+pyspark
+findspark
+matplotlib
+#wget
